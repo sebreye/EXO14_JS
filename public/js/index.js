@@ -4,18 +4,19 @@ for (let i = 1; i < 10; i++) {
     
 }
     
+
+for (let i = 20; i >= 0; i -= 2) {
+    console.log(i);
 }
-// for (let i = 20; i >= 0; i -= 2) {
-//     console.log(i);
-// }
-// let tab = ["sebastian", "brandon", "mohamed", "denis", "charlotte", "yassine", "quentin", "idrisse","victor", "vitor", "laurent", "enide", "fadia", "adil", "shahin"]
-// let longprenoms = []
-// for ( let i = 0; i<tab.length; i++){
-//     if (tab[i].length > 5) {
-//         longprenoms.push(tab[i])
+let tab3 = ["sebastian", "brandon", "mohamed", "denis", "charlotte", "yassine", "quentin", "idrisse","victor", "vitor", "laurent", "enide", "fadia", "adil", "shahin"]
+let longprenoms = []
+for ( let i = 0; i<tab3.length; i++){
+    if (tab3[i].length > 5) {
+    longprenoms.push(tab3[i])
         
-//     }
-}
+    }
+    }
+
 console.log(longprenoms);
 
 let sommes = [14, 7 , 97, 65 , 247 , 67 , 101 , 4 , 34 ,78 , 1 ,900 , 0, 11 , 32 , 23 , 61];
